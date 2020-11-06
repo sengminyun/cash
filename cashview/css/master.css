@@ -308,6 +308,7 @@ input{
     border: none;
     border-radius: 10px;
 }
+
 @media(max-width: 768px){
     .title h4{
         padding-left: 0 !important;
@@ -364,6 +365,21 @@ input{
         height: 34px;
         background: #fff;
         padding-left: 0 !important;
+    }
+}
+
+
+@media(max-width:280px){
+    .col-lg-6 button{
+        width: 80px !important;
+        height: 34px;
+        background: #fff;
+    }
+    .man-btn{
+        padding-left: 30% !important;
+    }
+    .girl-btn{
+        padding-right: 30% !important;
     }
 }
 
@@ -537,8 +553,11 @@ textarea{
         width: 100%;
     }
     .clear-btn div button{
-
+        width: 80%;
         height: 40px;
+    }
+    .clear-btn div{
+        padding: 0 !important;
     }
 }
 
@@ -616,7 +635,27 @@ textarea{
     }
 }
 
-@media(max-width:411px){
+
+
+
+
+@media(max-width:540px){
+    p{
+        font-size: 12px;
+    }
+    .title h4{
+        font-size: 1.5em;
+    }
+    .plus-btn{
+        width: 65%;
+    }
+}
+
+
+
+
+
+@media(max-width:414px){
     .title h4{
         font-size: 1.5em !important;
     }
@@ -626,10 +665,35 @@ textarea{
     .man-btn{
         padding-left: 1em !important;
     }
+    .clear-btn{
+        width: 100%;
+    }
+    .clear-btn div button{
+        width: 90%;
+    }
+    .plus-btn{
+        font-size: 12px;
+        width: 90%;
+    }
+    .plus-btn img{
+        margin-bottom: 4px;
+        margin-right: 4px;
+    }
 }
 
 
 @media(max-width:375px){
+    .title h4{
+        font-size: 1.3em !important;
+    }
+    .plus-btn{
+        font-size: 12px;
+        width: 90%;
+    }
+    .plus-btn img{
+        margin-bottom: 4px;
+        margin-right: 4px;
+    }
     .call input::placeholder{
         color: #2E2E2E !important;
     }
