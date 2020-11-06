@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+li{
+    list-style: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+}
+.logo{
+    padding: 0 20px;
+}
+
+.login-content{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.login-text{
+    color:#ccc;
+}
+.name{
+    color:#2E2E2E;
+    font-weight: 800;
+}
+.logo-bg{
+    background: #ccc;
+}
+.icon{
+    background: #f6f6f6;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.login-text{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+/* header  nav */
+
+.layout{
+    display: flex;
+}
+
+.slde-nav{
+    width: 10%;
+    height: auto;
+    padding: 0 .85em;
+    /* height auto 로 무조건 변경 */
+}
+.content{
+    width: 90%;
+    height: auto;
+    /* height auto 로 무조건 변경 */
+    border-radius: 50px 0px 0px 0px;
+    background: #f6f6f6;
+}
+
+.slde-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.slde-nav li{
+    padding: .85em;
+    border-radius: 10px;
+}
+.slde-nav > ul > li > a{
+    display: flex;
+    align-items: center;
+}
+.icon-box{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+}
+
+.logout a{
+    display: flex;
+    align-items: center;
+}
+.logout span{
+    font-size: .95em;
+}
+.icon-box.home{
+    background: url(../img/icon/home_grey.png);
+}
+
+.icon-box.info{
+    background: url(../img/icon/login_grey.png);
+}
+.icon-box.pr{
+    background: url(../img/icon/product_grey.png);
+}
+.icon-box.ad{
+    background: url(../img/icon/ad_grey.png);
+}
+
+.icon-box.lg-out{
+    background: url(../img/icon/logout.png);
+}
+
+@media(max-width: 768px){
+    .layout{
+        flex-wrap: wrap;
+    }
+    .slde-nav{
+        width: 100%;   
+    }
+    .slde-nav{
+        flex-direction: row;
+        align-items: center;
+    }
+    .slde-nav > ul{
+        display: flex;
+    }
+    .slde-nav span{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+
+
+
+p{
+    font-size: 15px;
+}
+.col-lg-12{
+    padding: 0;
+}
+.title h4{
+    font-size: 30px;
+    padding-top: 1.7em;
+    padding-left: 200px;
+    padding-bottom: 23px;
+}
+.content-box{
+    width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 55px 50px 50px;
+}
+input{
+    width: 100%;
+    outline-style: none;
+    border: none;
+}
+.col-lg-6{
+    margin: 0 !important;
+}
+.col-lg-6 p{
+    color: #878787;
+    margin-bottom: 13px;
+    padding-top: 28px;
+}
+.col-lg-6 button{
+    width: 133px;
+    height: 34px;
+    background: #fff;
+}
+.col-lg-12 p{
+    color: #878787;
+    margin-bottom: 13px;
+    padding-top: 28px;
+}
+.apply-name{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.apply-name p{
+    padding-top: 0;
+}
+
+.content-box input::placeholder{
+    color: #2E2E2E;
+}
+.option{
+    width: 100%;
+}
+.option-1{
+    width: 283px;
+    margin-right: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.col-lg-6{
+    padding-right: 0;
+}
+.option-2{
+    width: 283px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-right: 0;
+    padding-bottom: 10px;
+    margin: 0 !important;
+}
+.col-lg-6 input{
+    width: 100%;
+}
+.category{
+    border-bottom: 1px solid #EBEBEB;
+}
+.category p{
+    padding-top: 29px;
+    margin-bottom: 3px;
+}
+.form-control{
+    padding: 0;
+    color: #2E2E2E !important;
+    border: none;
+}
+.form-control .op-2 {
+    color: #2E2E2E !important;
+}
+.checkbox{
+    width: 14px;
+    height: 8px;
+    background: url(../images/checkbox/checkbox.png) no-repeat;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.type{
+    border-bottom: 1px solid #EBEBEB;
+}
+.type p{
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+.type-btn{
+    width: 100%;
+    background: #fff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    padding-top: 10px;
+} 
+.type-btn p{
+    color: #B5B5B5;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.p-2{
+    padding: 0 !important;
+}
+.file div p{
+    padding-top: 0;
+    margin-bottom: 0 !important;
+    margin-top: 5px;
+    color: #2E2E2E;
+}
+.col-lg-6 .file-btn{
+    width: 74px;
+    height: 32px;
+    border: none;
+    background: #ebf4ff;
+    color: #4C9EFF;
+    font-size: 13px;
+}
+.file .row{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.file-icon p{
+    color: #4C9EFF !important;
+}
+.file-icon p img{
+    margin-bottom: 2px;
+    margin-right: 7px;
+}
+.text-box p{
+    padding-top: 28px;
+}
+.information{
+    width: 100%;
+    height: 131px;
+    border: 1px solid #EBEBEB;
+    padding: 16px 21px;
+    color: #B5B5B5;
+}
+.clear-btn{
+    width: 420px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.clear-btn div button{
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+}
+.pre{
+    background: #B5B5B5 !important;
+    color: #fff;
+    border: none;
+}
+.clear{
+    background: #FF8200 !important;
+    border:none;
+    color: #fff;
+}
+.pd--3{
+    padding-bottom: 3%;
+}
+textarea{
+    resize: none;
+    font-size: 15px;
+}
+@media(max-width: 768px){
+    .title h4{
+        padding-left: 0 !important;
+        text-align: center;
+    }
+}
+@media(max-width:411px){
+    .title h4{
+        font-size: 1.5em !important;
+    }
+}
+
+
+@media(max-width:540px){
+    .content-box{
+        width: 100%;
+    }
+    .title h4{
+        width: 100%;
+        font-size: 30px;
+        padding-left: 0;
+        padding-bottom: 23px;
+    } 
+    .change-btn{
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .clear-btn{
+        width: 100%;
+    }
+    .clear-btn div button{
+        height: 40px;
+    }
+}
+
+
+
+@media(max-width:375px){
+    .content-box{
+        width: 100%;
+    }
+    .title h4{
+        width: 100%;
+        font-size: 30px;
+        padding-left: 0;
+        padding-bottom: 23px;
+    } 
+    .change-btn{
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .clear-btn{
+        width: 100%;
+    }
+    .clear-btn div button{
+        width: 90%;
+    }
+}
+@media(max-width:360px){
+    .content-box{
+        padding: 6%;
+    }
+    p{
+        font-size: 12px;
+    }
+    input{
+        font-size: 12px;
+    }
+}
