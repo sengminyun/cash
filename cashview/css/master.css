@@ -40,7 +40,7 @@ header{
     color:#ccc;
 }
 .name{
-    color#2E2E2E;
+    color:#2E2E2E;
     font-weight: 800;
 }
 .logo-bg{
@@ -232,18 +232,21 @@ input{
     color: #FF8200;
     border-radius: 5px;
     box-sizing: border-box;
+    outline-style: none !important;
 }
 .man-btn{
     padding-right: 0 !important;
 }
 .man-btn, .girl-btn{
     padding-left: 0 !important;
+    
 }
 .girl{
     border: 1.5px solid #B5B5B5;
     color: #B5B5B5;
     border-radius: 5px;
     box-sizing: border-box;
+    outline-style: none !important;
 }
 .my-name{
     border-bottom: 1px solid #EBEBEB;
@@ -611,6 +614,13 @@ textarea{
     background:#fff;
     font-size: 15px;
     line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus-btn p{
+    padding: 0;
+    margin: 0;
 }
 .cat-num{
     padding-left: 0 !important;
@@ -625,6 +635,7 @@ textarea{
 .cat-del{
     padding: 0 !important;
     padding-left: 20px !important;
+    cursor: pointer;
 }
 .cat-head{
     border-bottom: 1px solid #EBEBEB;
@@ -648,6 +659,9 @@ textarea{
     }
     .plus-btn{
         width: 65%;
+    }
+    .container{
+        width: 100% !important;
     }
 }
 
@@ -673,11 +687,13 @@ textarea{
     }
     .plus-btn{
         font-size: 12px;
-        width: 90%;
+        width: 30%;
     }
-    .plus-btn img{
-        margin-bottom: 4px;
-        margin-right: 4px;
+    .plus-btn p{
+        display: none;
+    }
+    .d-flex.justify-content-between.title-box{
+        justify-content: space-between;
     }
 }
 
@@ -688,12 +704,9 @@ textarea{
     }
     .plus-btn{
         font-size: 12px;
-        width: 90%;
+        width: 30%;
     }
-    .plus-btn img{
-        margin-bottom: 4px;
-        margin-right: 4px;
-    }
+
     .call input::placeholder{
         color: #2E2E2E !important;
     }
