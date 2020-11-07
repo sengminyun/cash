@@ -172,8 +172,10 @@ p{
 .title h4{
     font-size: 30px;
     padding-top: 1.7em;
-    /* padding-left: 200px; */
     padding-bottom: 23px;
+}
+.title{
+    align-items: center;
 }
 .title-box{
     width: 700px;
@@ -204,8 +206,8 @@ input{
     outline-style: none;
     border: none;
 }
-.mail input::placeholder {
-    color: #2E2E2E;
+.mail > input::placeholder {
+    color: #2E2E2E !important;
 }
 .password{
     padding-bottom: 10px;
@@ -224,7 +226,7 @@ input{
 }
 .col-lg-6 button{
     width: 133px;
-    height: 34px;
+    padding: .25em 0;
     background: #fff;
 }
 .man{
@@ -259,7 +261,7 @@ input{
     padding-bottom: 10px;
 }
 .call input::placeholder{
-    color:#2E2E2E;
+    color:#2E2E2E !important;
 }
 .mileage{
     border-bottom: 1px solid #EBEBEB;
@@ -310,80 +312,6 @@ input{
     font-size: 16px;
     border: none;
     border-radius: 10px;
-}
-
-@media(max-width: 768px){
-    .title h4{
-        padding-left: 0 !important;
-    }
-
-    .title-box{
-        width: 100%;
-    }
-    .category-box{
-        width: 100% !important;
-        padding: 8% !important;
-    }
-}
-
-@media(max-width:411px){
-    .title h4{
-        font-size: 1.5em !important;
-    }
-    .girl-btn{
-        padding-right: 1em !important;
-    }
-    .man-btn{
-        padding-left: 1em !important;
-    }
-}
-
-
-@media(max-width:375px){
-    .call input::placeholder{
-        color: #2E2E2E !important;
-    }
-    .content-box{
-        padding: 8%;
-    }
-}
-
-@media(max-width:360px){
-
-    .content-box{
-        width: 100% !important;
-        padding: 6%;
-    }
-    p{
-        font-size: 12px;
-    }
-    input{
-        font-size: 12px;
-    }
-    textarea{
-        font-size: 12px !important;
-    }
-    .col-lg-6 button{
-        width: 133px;
-        height: 34px;
-        background: #fff;
-        padding-left: 0 !important;
-    }
-}
-
-
-@media(max-width:280px){
-    .col-lg-6 button{
-        width: 80px !important;
-        height: 34px;
-        background: #fff;
-    }
-    .man-btn{
-        padding-left: 30% !important;
-    }
-    .girl-btn{
-        padding-right: 30% !important;
-    }
 }
 
 
@@ -537,7 +465,263 @@ textarea{
     font-size: 15px;
 }
 
-@media(max-width:540px){
+
+
+/* index2 */
+
+
+
+
+/* index3 */
+.page3 input::placeholder{
+    color: #2E2E2E;
+}
+.page3 select,
+.page3 .file .col-6 p{
+    color: #2E2E2E !important;
+}
+.page3 .file .file-icon p, .page6 .file .file-icon p{
+    color: #4C9EFF !important;
+}
+/* index3 */
+
+
+
+
+
+/* index4 */
+.sec-head{
+    padding-top: 3.3em;
+    padding-bottom: 1.5em;
+}
+.title-box h4{
+    font-size: 30px;
+}
+.category-box{
+    width: 700px;
+    padding: 28px 50px 41px;
+    border: 1px solid #EBEBEB;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.plus-btn{
+    display: flex;
+    padding: 10px 20px;
+    border: 1.5px solid #FF8200;
+    border-radius: 5px;
+    background: none;
+}
+.plus-btn p{
+    padding: 0;
+    margin: 0;
+    line-height: 19px;
+    color: #FF8200;
+}
+.plus-btn img{
+    margin-right: 7px;
+}
+table{
+    width: 100%;
+}
+table thead tr td:nth-child(1),
+table thead tr td:nth-child(3){
+    text-align: center;
+}
+table thead tr:nth-child(1) td{
+    color: #878787;
+    border-bottom: 1px solid #EBEBEB;
+}
+table thead tr td:nth-child(2){
+    padding-left: 6%;
+}
+table thead tr{
+    height: 48px;
+}
+table thead tr td{
+    font-size: 15px;
+}
+
+
+/* index4 */
+
+
+
+
+
+/* index7 */
+
+.page7{
+    width: 1000px;
+    margin: 0 auto;
+}
+.page7-title h4{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.page7-title{
+    padding: 3.2em 0 1.2em !important;
+}
+.page7-title,
+.page7-title .col-lg-6{
+    padding: 0;
+}
+.title-1{
+    position: relative;
+    margin-right:.6em ;
+}
+.title-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #FF8200;
+    left: 0;
+    bottom: 0;
+}
+.title-2{
+    color: #878787;
+}
+.top-btn{
+    padding: 0;
+}
+.top-btn button{
+    padding: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+.top-btn-1{
+    border: 1px solid #FF8200;
+    color: #FF8200 !important;
+    margin-right: 0 !important;
+    background: none;
+}
+.top-btn-1 p{
+    padding: 0;
+    margin: 0;
+    color:  #FF8200;
+    font-size: 16px;
+
+}
+.top-btn-2 p{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+
+}
+.top-btn-2{
+    background-color: #FF8200 !important;
+    color: #FFFFFF !important;
+    border: none;
+    border: 1px solid #FF8200;
+    margin-left: 10px;
+}
+.pd--5{
+    padding-bottom: 5em;
+}
+.page7-table{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 28px 50px 41px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+
+.page7-table table thead tr td{
+    text-align: center;
+}
+.page7-table table thead tr td:nth-child(2),
+.page7-table table thead tr td:nth-child(4),
+.page7-table table thead tr td:nth-child(5){
+    text-align: left;
+}
+
+.p7-tbox{
+    padding: 0;
+}
+.s-color{
+    color: #878787;
+}
+/* index7 */
+
+@media(max-width: 1024px){
+    .page7{
+        width: 100%;
+    }
+    .page7-table{
+        width: 100%;
+    }
+}
+@media(max-width: 992px){
+    .none-992{
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+    .page7-table{
+        width: 100%;
+        padding: 0;
+    }
+    .top-btn button{
+        padding: 13px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .page7-title h4{
+        font-size: 1.7em;
+        line-height: 35px;
+    }
+    .title h4{
+        padding-left: 0 !important;
+    }
+    .title-box{
+        width: 100%;
+    }
+
+    /* index4 */
+    .category-box{
+        width: 100% !important;
+        padding: 8% 0!important;
+    }
+    /* index4 */
+}
+@media(max-width: 640px){
+    .none-640{
+        display: none;
+    }
+    .page7-title h4{
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:568px){
+    /* 제목/추가버튼 */
+    .sec-head{
+        padding-bottom: 10px;
+    }
+    .title-box{
+        align-items: center;
+    }
+    .title-box h4{
+        font-size: 1.5em;
+    } 
+    .plus-btn{
+        padding: 5px;
+        align-items: center;
+        max-height: 30px;
+    }
+    /* 제목/추가버튼 */
+
+    .top-btn button {
+        padding:0 5px;
+    }
+    .top-btn button p{
+        font-size: .8em;
+    }
+
     .content-box{
         width: 100%;
     }
@@ -547,11 +731,22 @@ textarea{
         padding-left: 0;
         padding-bottom: 23px;
     } 
+
+    .man-btn, .girl-btn{
+        padding:0 2.5em !important;
+    }
+
+
+    /* 하단버튼 */
     .change-btn{
         width: 100%;
         margin-top: 50px;
-        
     }
+    /* 하단버튼 */
+
+
+
+    /* 하단버튼 */
     .clear-btn{
         width: 100%;
     }
@@ -562,150 +757,111 @@ textarea{
     .clear-btn div{
         padding: 0 !important;
     }
+    /* 하단버튼 */
 }
-
-
-
-@media(max-width:375px){
-    .content-box{
-        width: 100%;
-    }
-    .title h4{
-        width: 100%;
-        font-size: 30px;
-        padding-left: 0;
-        padding-bottom: 23px;
-    } 
-    .change-btn{
-        width: 100%;
-        margin-top: 50px;
-        
-    }
-    .clear-btn{
-        width: 100%;
-    }
-    .clear-btn div button{
-        width: 90%;
-    }
-}
-
-
-
-/* index2 */
-
-
-
-/* index4 */
-.category-box{
-    width: 700px;
-    padding: 28px 50px 41px;
-    border: 1px solid #EBEBEB;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-.plus{
-    padding-top: 2.5em !important;
-}
-.plus-btn{
-    width: 162px;
-    height: 45px;
-    border: 1.5px solid #FF8200;
-    border-radius: 5px;
-    background:#fff;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.plus-btn p{
-    padding: 0;
-    margin: 0;
-}
-.cat-num{
-    padding-left: 0 !important;
-}
-.cat-name p{
-    padding-left: 27px !important;
-    color: #2E2E2E !important;
-}
-.cat-head .cat-name p{
-    color: #878787 !important;
-}
-.cat-del{
-    padding: 0 !important;
-    padding-left: 20px !important;
-    cursor: pointer;
-}
-.cat-head{
-    border-bottom: 1px solid #EBEBEB;
-}
-@media(max-width: 768px){
-    .plus{
-        padding-top: 2em !important;
-    }
-}
-
-
-
-
-
-@media(max-width:540px){
-    p{
-        font-size: 12px;
-    }
-    .title h4{
-        font-size: 1.5em;
-    }
-    .plus-btn{
-        width: 65%;
-    }
-    .container{
-        width: 100% !important;
-    }
-}
-
-
-
 
 
 @media(max-width:414px){
-    .title h4{
-        font-size: 1.5em !important;
+    .none-414{
+        display: none;
     }
+    /* index4 제목/추가버튼 */
+    .sec-head{
+        padding-top: 0;
+    }
+    .top-btn button{
+        padding: 0px 6px;
+    }
+    .page7-title h4{
+        font-size: 1em;
+    }
+    .top-btn-1 p, .top-btn-2 p{
+        font-size: 0.5em;
+    }
+    .title-box h4{
+        font-size: 1.2em;
+        line-height: 50px;
+        margin: 0;
+    }
+    .plus-btn p{
+        display: none;
+    }
+    .plus-btn img{
+        margin-right: 0;
+    }
+    /* index4 제목/추가버튼 */
+
+    .title h4{
+        font-size: 1.2em;
+        padding-top: 0;
+        padding-bottom: 15px;
+    } 
+
+
+    /*테이블 */
+    table thead tr td{
+        font-size: 10px;
+    }
+    /*테이블 */
+
+
+    .title h4{
+        font-size: 1.2em !important;
+    }
+
+
+    /*성별버튼 */
     .girl-btn{
         padding-right: 1em !important;
     }
     .man-btn{
         padding-left: 1em !important;
     }
+    /*성별버튼 */
+
+
+    .information{
+        padding: 3%;
+    }
+}
+
+
+@media(max-width:375px){
+    /* 제목 */
+    .title h4{
+        width: 100%;
+        font-size: 30px;
+        padding-left: 0;
+        padding-bottom: 23px;
+    } 
+    /* 제목 */
+
+
+
+    .content-box{
+        width: 100%;
+    }
+
+
+    /* 하단버튼 */
+    .change-btn{
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* 하단버튼 */
+
+
+    /* 하단버튼 */
     .clear-btn{
         width: 100%;
     }
     .clear-btn div button{
         width: 90%;
     }
-    .plus-btn{
-        font-size: 12px;
-        width: 30%;
-    }
-    .plus-btn p{
-        display: none;
-    }
-    .d-flex.justify-content-between.title-box{
-        justify-content: space-between;
-    }
-}
+    /* 하단버튼 */
 
 
-@media(max-width:375px){
-    .title h4{
-        font-size: 1.3em !important;
-    }
-    .plus-btn{
-        font-size: 12px;
-        width: 30%;
-    }
+
 
     .call input::placeholder{
         color: #2E2E2E !important;
@@ -716,7 +872,6 @@ textarea{
 }
 
 @media(max-width:360px){
-
     .content-box{
         width: 100% !important;
         padding: 6%;
@@ -736,5 +891,23 @@ textarea{
         background: #fff;
         padding-left: 0 !important;
     }
+
+    .man-btn, .girl-btn{
+        padding: 0 !important;
+    }
 }
-/* index4 */
+
+@media(max-width:280px){
+    .col-lg-6 button{
+        width: 80px !important;
+        height: 34px;
+        background: #fff;
+    }
+    .man-btn{
+        padding-left: 30% !important;
+    }
+    .girl-btn{
+        padding-right: 30% !important;
+    }
+}
+
